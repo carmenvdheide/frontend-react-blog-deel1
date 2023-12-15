@@ -1,0 +1,30 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #2C2F39;
+    color: white;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    margin: 0 20px;
+}
+
+
+.active-menu-link {
+    border-bottom: 2px solid white;
+    text-decoration: none;
+    color: white;
+}
+
+.default-menu-link {
+    border-bottom: 2px solid transparent;
+    text-decoration: none;
+    color: white;
+}
