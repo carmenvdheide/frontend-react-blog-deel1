@@ -8,6 +8,8 @@ import {NavLink, Route, Routes} from "react-router-dom";
 import Navigation from "./components/navigation/navigation.jsx";
 import React from "react";
 
+////////////////////////////////////////////////////////////////// pagina voor losse blogposts maken met link van de titel naar de pagina
+
 function App() {
     return (
         <>
