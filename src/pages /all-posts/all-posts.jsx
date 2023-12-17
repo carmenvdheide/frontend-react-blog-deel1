@@ -1,4 +1,4 @@
-import {useParams} from "react-router-dom";
+import {Link, useParams} from "react-router-dom";
 import posts from "../../constants/data.json";
 import "./all-posts.css"
 
@@ -8,13 +8,16 @@ function AllPosts() {
 
     return (
         <>
-            <p className="numberOfPosts">{posts.length} posts gevonden</p>
+            <p className="numberOfPosts">Bekijk alle {posts.length} posts op het platform</p>
             <ul className="listBlogPosts">
                 {posts.map((post) => {
                     return(
-                        <li className="blogPost">
+                        <li className={post['id']}>
                             <div className="blogPostTitle">
-                                <h2>{post['title']}</h2>
+
+                                <Link to={"/post/" + post['id']}
+                                      className="link"
+                                >{post['title']}</Link>
                                 <p>({post['author']})</p>
                             </div>
                             <p>{post['comments']} reacties - {post['shares']} keer gedeeld</p>
@@ -28,5 +31,7 @@ function AllPosts() {
 
     )
 }
+
+// <Link to="/about">Naar de "over ons" pagina</Link>
 
 export default AllPosts

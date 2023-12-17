@@ -1,6 +1,11 @@
+import logo from '../../assets/logo-white.png'
+
 function Home() {
     return (
-        <p>Home</p>
+        <div className="page-container">
+            <img src={logo} alt="Company logo"/>
+
+        </div>
     )
 }
 export default Home

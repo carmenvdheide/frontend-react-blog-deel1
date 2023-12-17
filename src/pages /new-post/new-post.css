@@ -1,0 +1,43 @@
+.new-post-page {
+    background-color: #e8e6e6;
+    margin: 40px 80px;
+    padding: 20px 55px;
+    border-radius: 10px;
+}
+
+.new-post-page h1 {
+    margin: 15px 0;
+}
+
+.new-post-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.new-post-form input {
+    border: none;
+    margin-bottom: 10px;
+}
+
+.new-post-form textarea {
+    border: none;
+}
+
+.new-post-form button {
+    min-width: 80px;
+    margin: 10px 0;
+    background-color: #077f44;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.error {
+    /*background-color: #38E991;*/
+    height: 30px;
+}
+
+.noShow {
+    display: none;
+}

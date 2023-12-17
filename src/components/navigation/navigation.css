@@ -4,6 +4,7 @@ nav {
     justify-content: space-between;
     background-color: #2C2F39;
     color: white;
+    padding-left: 20px;
 }
 
 ul {
@@ -18,9 +19,9 @@ ul {
 
 
 .active-menu-link {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #077f44;
     text-decoration: none;
-    color: white;
+    color: #077f44;
 }
 
 .default-menu-link {

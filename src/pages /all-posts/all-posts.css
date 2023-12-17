@@ -5,15 +5,15 @@
     gap: 0.3rem
 }
 
-h2 {
-    font-size: 15px;
+p {
+    font-size: 14px;
 }
 
 .numberOfPosts {
     margin: 30px;
 }
 
-.blogPost {
+.listBlogPosts li{
     background-color: #e8e6e6;
     display: flex;
     flex-direction: column;
@@ -26,4 +26,11 @@ h2 {
     margin: 30px;
     display: flex;
     flex-direction: column;
+}
+.link {
+    color: #2C2F39;
+    text-decoration: none;
+    font-size: 16px;
+    color: #077f44;
+    font-weight: 600;
 }

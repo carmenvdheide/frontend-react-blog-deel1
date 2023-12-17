@@ -7,8 +7,9 @@ import NewPost from "./pages /new-post/new-post.jsx";
 import {NavLink, Route, Routes} from "react-router-dom";
 import Navigation from "./components/navigation/navigation.jsx";
 import React from "react";
+import BlogPost from "./pages /blog-post/blog-post.jsx";
 
-////////////////////////////////////////////////////////////////// pagina voor losse blogposts maken met link van de titel naar de pagina
+
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
                 <Route path="/newpost" element={<NewPost />}/>
                 <Route path="/allposts" element={<AllPosts />}/>
                 <Route path="*" element={<Error />}/>
+                <Route path="/post/:id" element={<BlogPost />} />
             </Routes>
 
         </>
