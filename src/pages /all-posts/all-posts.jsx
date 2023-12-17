@@ -32,6 +32,4 @@ function AllPosts() {
     )
 }
 
-// <Link to="/about">Naar de "over ons" pagina</Link>
-
 export default AllPosts

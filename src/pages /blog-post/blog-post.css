@@ -11,20 +11,11 @@
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
-    /*gap: 15px;*/
-    margin-bottom: 10pxpx;
+    margin-bottom: 10px;
 }
-
-.title-time h2 {
-    /*margin-right: 15px;*/
-}
-
-
-
 
 .blogpost-article h2 {
     font-size: 22px;
-    /*margin: 5px 0;*/
     margin: 5px 15px 5px 0;
 
 }

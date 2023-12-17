@@ -53,6 +53,4 @@ function BlogPost() {
     )
 }
 
-///////// convert date
-
 export default BlogPost
